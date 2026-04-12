@@ -1,0 +1,169 @@
+/* General page style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Titles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Fieldset (forms container) */
+fieldset {
+    width: 60%;
+    margin: 30px auto;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 12px;
+}
+
+/* Inputs */
+input[type="text"],
+select {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* Reset button */
+input[type="reset"] {
+    background: #dc3545;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background: #c82333;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 10px;
+}
+
+/* Navigation menu */
+ul {
+    padding: 0;
+    width: 300px;
+    margin: 50px auto;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.2s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+a:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Result table (PHP output) */
+table[border] {
+    width: 70%;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table[border] th {
+    background: #007bff;
+    color: white;
+}
+
+table[border] td {
+    text-align: center;
+}
+
+/* Messages */
+h1 {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Success */
+h1:contains("success"),
+h1:contains("recorded") {
+    background: #d4edda;
+    color: #155724;
+}
+
+/* Error */
+h1:contains("error"),
+h1:contains("failed"),
+h1:contains("invalid") {
+    background: #f8d7da;
+    color: #721c24;
+}

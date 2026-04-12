@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    td, th {
+        padding: 15px;
+    }
+    
+    td, th {
+        margin: 5px;
+    }
+    
+    input {
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <fieldset>
+        <legend>Model Evaluation</legend>
+
+        <form action="evaluation.php" method="post" name="f1">
+            <table>
+                <tr>
+                    <th>License Number</th>
+                    <td><input type="text" name="license"></td>
+
+                    <th>Tested Model</th>
+                    <td>
+                        <select name="model">
+                            <option value="">Choose a model</option>
+                            <option value="15">WALLYS IRIS</option>
+                            <option value="26">WALLYS 619</option>
+                            <option value="38">WALLYS 216</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Assigned Scores</th>
+                    <td>Safety <input type="text" name="e1" size="6"></td>
+                    <td>Driving <input type="text" name="e2" size="6"></td>
+                    <td>Comfort <input type="text" name="e3" size="6"></td>
+                </tr>
+
+                <tr>
+                    <th>
+                        I am not a robot 
+                        <input type="checkbox" name="robot">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th><input type="reset" value="Reset"></th>
+                    <th><input type="submit" value="Submit" onclick="return verify2()"></th>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    <script src="controle.js"></script>
+</body>
+
+</html>
