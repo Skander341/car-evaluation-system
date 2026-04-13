@@ -56,10 +56,10 @@ To run this project, you need to install XAMPP (Apache + MySQL) and use a web br
 ## Screenshots
 
 ### Home Page
-![Home Page](Homepage.png)
+![Home Page](screenshots/Homepage.png)
 
 ### Registration Page
-![Home Page](Registrationpage.png)
+![Home Page](screenshots/Registrationpage.png)
 
 
 
