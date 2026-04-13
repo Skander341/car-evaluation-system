@@ -61,7 +61,11 @@ To run this project, you need to install XAMPP (Apache + MySQL) and use a web br
 ### Registration Page
 ![Home Page](screenshots/Registrationpage.png)
 
+### Model Evaluation Page
+![Home Page](screenshots/ModelEvaluation.png)
 
+### Evaluation Summary Page
+![Home Page](screenshots/EvaluationSummary.png)
 
 
 ## Author
