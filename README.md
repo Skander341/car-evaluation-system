@@ -53,6 +53,17 @@ To run this project, you need to install XAMPP (Apache + MySQL) and use a web br
 - View evaluation results
 - Simple and easy-to-use interface
 
+## Screenshots
+
+### Home Page
+![Home Page](Homepage.png)
+
+### Registration Page
+![Home Page](Registrationpage.png)
+
+
+
+
 ## Author
 
 Mohamed Skander Limam
